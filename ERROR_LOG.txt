@@ -1,0 +1,23 @@
+
+[2026-01-01T10:17:57.552Z] POST /api/subjects/bulk
+error: insert or update on table "subjects" violates foreign key constraint "subjects_user_id_fkey"
+    at /Users/ahmad/Downloads/eduguru/node_modules/pg/lib/client.js:545:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///Users/ahmad/Downloads/eduguru/server.js:723:7
+
+[2026-01-01T13:30:34.611Z] POST /api/ai/follow-up
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///Users/ahmad/Downloads/eduguru/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (file:///Users/ahmad/Downloads/eduguru/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/ahmad/Downloads/eduguru/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async file:///Users/ahmad/Downloads/eduguru/server.js:1112:18
+
+[2026-01-03T01:48:23.778Z] POST /api/ai/chat
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (file:///Users/ahmad/Downloads/eduguru/node_modules/@google/generative-ai/dist/index.mjs:432:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (file:///Users/ahmad/Downloads/eduguru/node_modules/@google/generative-ai/dist/index.mjs:401:9)
+    at async generateContent (file:///Users/ahmad/Downloads/eduguru/node_modules/@google/generative-ai/dist/index.mjs:865:22)
+    at async ChatSession.sendMessage (file:///Users/ahmad/Downloads/eduguru/node_modules/@google/generative-ai/dist/index.mjs:1208:9)
+    at async file:///Users/ahmad/Downloads/eduguru/server.js:1145:18

@@ -1,0 +1,78 @@
+{
+    "name": "EduGuru",
+    "short_name": "EduGuru",
+    "description": "Asisten Guru Modern dengan AI - Kelola jurnal, absensi, nilai, dan konseling dalam satu aplikasi.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f9fafb",
+    "theme_color": "#22c55e",
+    "orientation": "portrait-primary",
+    "categories": [
+        "education",
+        "productivity"
+    ],
+    "lang": "id",
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "type": "image/svg+xml",
+            "sizes": "any"
+        },
+        {
+            "src": "/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/icon-maskable.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshot-desktop.png",
+            "type": "image/png",
+            "sizes": "1280x720",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/screenshot-mobile.png",
+            "type": "image/png",
+            "sizes": "750x1334",
+            "form_factor": "narrow"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Jurnal Mengajar",
+            "short_name": "Jurnal",
+            "description": "Buat jurnal mengajar baru",
+            "url": "/?tab=journal",
+            "icons": [
+                {
+                    "src": "/icon-journal.png",
+                    "sizes": "96x96"
+                }
+            ]
+        },
+        {
+            "name": "Absensi Siswa",
+            "short_name": "Absensi",
+            "description": "Input absensi siswa",
+            "url": "/?tab=attendance",
+            "icons": [
+                {
+                    "src": "/icon-attendance.png",
+                    "sizes": "96x96"
+                }
+            ]
+        }
+    ]
+}

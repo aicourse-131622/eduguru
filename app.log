@@ -1,0 +1,11 @@
+
+> eduguru@1.0.0 start:prod
+> NODE_ENV=production node server.js
+
+✅ Gemini AI initialized
+💓 Heartbeat active
+🚀 EduGuru Server running on port 3001
+📂 Serving static files from: /Users/ahmad/Downloads/eduguru/dist
+🌐 Open http://localhost:3001 in your browser
+❌ Database connection error: role "usereduguru" does not exist
+ℹ️ Server will run in demo mode without database
