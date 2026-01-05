@@ -1,0 +1,1 @@
+2025-12-31 02:44:34 +01:00: ❌ Error initializing database tables: duplicate key value violates unique constraint "pg_type_typname_nsp_index"

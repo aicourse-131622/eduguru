@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>EduGuru - Asisten Guru Modern dengan AI</title>
+    <meta name="description" content="EduGuru adalah aplikasi manajemen guru modern dengan fitur jurnal mengajar, absensi siswa, penilaian, dan asisten AI berbasis Gemini. Kelola kelas Anda dengan lebih efektif!" />
+    <meta name="keywords" content="jurnal mengajar, absensi siswa, penilaian siswa, aplikasi guru, manajemen kelas, EduGuru, AI guru" />
+    <meta name="author" content="EduGuru Team" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="EduGuru - Asisten Guru Modern" />
+    <meta property="og:description" content="Kelola jurnal, absensi, nilai, dan konseling dalam satu aplikasi terintegrasi dengan AI." />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:site_name" content="EduGuru" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="EduGuru - Asisten Guru Modern" />
+    <meta name="twitter:description" content="Kelola jurnal, absensi, nilai, dan konseling dalam satu aplikasi." />
+    <meta name="twitter:image" content="/og-image.png" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#22c55e" />
+    <meta name="msapplication-TileColor" content="#22c55e" />
+    
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://ui-avatars.com" />
+    
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            },
+            colors: {
+              primary: {
+                50: '#f0fdf4',
+                100: '#dcfce7',
+                200: '#bbf7d0',
+                300: '#86efac',
+                400: '#4ade80',
+                500: '#22c55e',
+                600: '#16a34a',
+                700: '#15803d',
+                800: '#166534',
+                900: '#14532d',
+              }
+            },
+            animation: {
+              'shake': 'shake 0.5s cubic-bezier(.36,.07,.19,.97) both',
+              'fadeIn': 'fadeIn 0.3s ease-out',
+              'slideUp': 'slideUp 0.3s ease-out',
+              'slideDown': 'slideDown 0.3s ease-out',
+            },
+            keyframes: {
+              shake: {
+                '10%, 90%': { transform: 'translateX(-1px)' },
+                '20%, 80%': { transform: 'translateX(2px)' },
+                '30%, 50%, 70%': { transform: 'translateX(-4px)' },
+                '40%, 60%': { transform: 'translateX(4px)' },
+              },
+              fadeIn: {
+                'from': { opacity: '0' },
+                'to': { opacity: '1' },
+              },
+              slideUp: {
+                'from': { transform: 'translateY(10px)', opacity: '0' },
+                'to': { transform: 'translateY(0)', opacity: '1' },
+              },
+              slideDown: {
+                'from': { transform: 'translateY(-10px)', opacity: '0' },
+                'to': { transform: 'translateY(0)', opacity: '1' },
+              },
+            },
+          }
+        }
+      }
+    </script>
+    
+    <style>
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #d1d5db;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #9ca3af;
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: #4b5563;
+      }
+      .dark ::-webkit-scrollbar-thumb:hover {
+        background: #6b7280;
+      }
+      
+      /* Hide scrollbar for specific elements */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      
+      /* Focus ring */
+      .focus-ring:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.4);
+      }
+      
+      /* Loading animation */
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: .5; }
+      }
+      
+      /* Transition classes */
+      .transition-smooth {
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      
+      /* Print styles */
+      @media print {
+        .no-print { display: none !important; }
+        .print-only { display: block !important; }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-CR0lNhtg.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-CvrAlPOO.js">
+    <link rel="modulepreload" crossorigin href="/assets/charts-DgrdrEOe.js">
+    <link rel="modulepreload" crossorigin href="/assets/icons-Dy16QcjU.js">
+    <link rel="modulepreload" crossorigin href="/assets/pdf-CoY2g0EJ.js">
+    <link rel="modulepreload" crossorigin href="/assets/excel-BBWTpfDg.js">
+    <link rel="modulepreload" crossorigin href="/assets/word-8J_a-qQ9.js">
+  </head>
+  <body class="font-sans bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 antialiased transition-colors duration-200">
+    <div id="root">
+      <!-- Loading state while React loads -->
+      <div class="fixed inset-0 flex items-center justify-center bg-gray-50 dark:bg-gray-900">
+        <div class="text-center">
+          <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-primary-500 to-green-600 text-white mb-4 animate-pulse">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+          <h1 class="text-xl font-bold text-gray-900 dark:text-white">EduGuru</h1>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Memuat aplikasi...</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- React App Entry Point -->
+    
+    <!-- Service Worker Registration (for PWA) -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {
+            // Service worker registration failed, but app will still work
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
